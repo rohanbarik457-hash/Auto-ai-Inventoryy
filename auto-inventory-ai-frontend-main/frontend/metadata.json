@@ -1,0 +1,9 @@
+{
+  "name": "Copy of AutoInventory AI - Hanuman Trader",
+  "description": "AI-powered inventory and supply chain management system for MSMEs with multi-location support, GST invoicing, and Gemini-powered forecasting.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

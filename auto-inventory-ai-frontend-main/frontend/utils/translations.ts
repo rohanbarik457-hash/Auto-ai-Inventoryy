@@ -1,0 +1,98 @@
+export type Language = 'en' | 'hi';
+
+export const translations = {
+    en: {
+        // Navigation
+        'nav.dashboard': 'Dashboard',
+        'nav.inventory': 'Inventory',
+        'nav.sales': 'Sales & POS',
+        'nav.customers': 'Customers',
+        'nav.suppliers': 'Suppliers',
+        'nav.reports': 'Reports',
+        'nav.analytics': 'Analytics',
+        'nav.settings': 'Settings',
+
+        // Common
+        'common.add': 'Add',
+        'common.edit': 'Edit',
+        'common.delete': 'Delete',
+        'common.save': 'Save',
+        'common.cancel': 'Cancel',
+        'common.search': 'Search',
+        'common.actions': 'Actions',
+        'common.status': 'Status',
+        'common.loading': 'Loading...',
+        'common.success': 'Success',
+        'common.error': 'Error',
+        'common.confirm': 'Confirm',
+
+        // Inventory
+        'inv.title': 'Inventory Management',
+        'inv.subtitle': 'Track stock, manage suppliers, and optimize supply chain.',
+        'inv.addProduct': 'Add Product',
+        'inv.transfer': 'Transfer',
+        'inv.tabs.all': 'All Inventory',
+        'inv.tabs.lowCheck': 'Low Stock Alerts',
+        'inv.tabs.expiring': 'Expiring Soon',
+        'inv.tabs.history': 'Transfer History',
+        'inv.searchPlaceholder': 'Search by product name, SKU, or barcode...',
+        'inv.filter.location': 'All Locations',
+        'inv.filter.supplier': 'All Suppliers',
+        'inv.filter.category': 'All Categories',
+        'inv.table.product': 'Product Details',
+        'inv.table.category': 'Category / Supplier',
+        'inv.table.price': 'Unit Price',
+        'inv.table.stock': 'Total Stock',
+        'inv.modal.addTitle': 'Add New Product',
+        'inv.modal.editTitle': 'Edit Product Details',
+        'inv.modal.basicInfo': 'Basic Information',
+        'inv.modal.pricingStock': 'Pricing & Stock',
+    },
+    hi: {
+        // Navigation
+        'nav.dashboard': 'डैशबोर्ड',
+        'nav.inventory': 'इन्वेंटरी', // Or 'सामग्री सूची'
+        'nav.sales': 'बिक्री और पीओएस',
+        'nav.customers': 'ग्राहक',
+        'nav.suppliers': 'आपूर्तिकर्ता',
+        'nav.reports': 'रिपोर्ट',
+        'nav.analytics': 'विश्लेषण',
+        'nav.settings': 'सेटिंग्स',
+
+        // Common
+        'common.add': 'जोड़ें',
+        'common.edit': 'संपादित करें',
+        'common.delete': 'हटाएं',
+        'common.save': 'सहेजें',
+        'common.cancel': 'रद्द करें',
+        'common.search': 'खोजें',
+        'common.actions': 'कार्रवाई',
+        'common.status': 'स्थिति',
+        'common.loading': 'लोड हो रहा है...',
+        'common.success': 'सफल',
+        'common.error': 'त्रुटि',
+        'common.confirm': 'पुष्टि करें',
+
+        // Inventory
+        'inv.title': 'इन्वेंटरी प्रबंधन',
+        'inv.subtitle': 'स्टॉक ट्रैक करें, आपूर्तिकर्ताओं का प्रबंधन करें और आपूर्ति श्रृंखला को अनुकूलित करें।',
+        'inv.addProduct': 'उत्पाद जोड़ें',
+        'inv.transfer': 'स्थानांतरण',
+        'inv.tabs.all': 'सभी इन्वेंटरी',
+        'inv.tabs.lowCheck': 'कम स्टॉक अलर्ट',
+        'inv.tabs.expiring': 'जल्द समाप्त हो रहा है',
+        'inv.tabs.history': 'स्थानांतरण इतिहास',
+        'inv.searchPlaceholder': 'उत्पाद नाम, SKU या बारकोड द्वारा खोजें...',
+        'inv.filter.location': 'सभी स्थान',
+        'inv.filter.supplier': 'सभी आपूर्तिकर्ता',
+        'inv.filter.category': 'सभी श्रेणियां',
+        'inv.table.product': 'उत्पाद विवरण',
+        'inv.table.category': 'श्रेणी / आपूर्तिकर्ता',
+        'inv.table.price': 'इकाई मूल्य',
+        'inv.table.stock': 'कुल स्टॉक',
+        'inv.modal.addTitle': 'नया उत्पाद जोड़ें',
+        'inv.modal.editTitle': 'उत्पाद विवरण संपादित करें',
+        'inv.modal.basicInfo': 'बुनियादी जानकारी',
+        'inv.modal.pricingStock': 'मूल्य निर्धारण और स्टॉक',
+    }
+};
